@@ -1,0 +1,542 @@
+﻿Log file open, 04/27/16 15:06:23
+LogInit:Display: Running engine for game: Macbeth
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1156569348) SRandInit(1156569349).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.251728
+LogInit: Version: 4.11.1-2934540+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr  6 2016 02:14:16
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.04.27-14.06.23:160][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.27-14.06.23:160][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.27-14.06.23:178][  0]LogInit: Computer: MULLENIX-PC
+[2016.04.27-14.06.23:178][  0]LogInit: User: MullenIX
+[2016.04.27-14.06.23:178][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.04.27-14.06.23:178][  0]LogInit: High frequency timer resolution =2.610712 MHz
+[2016.04.27-14.06.23:178][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2016.04.27-14.06.23:178][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-14.06.23:178][  0]LogMemory: Process Physical Memory: 314.08 MB used, 314.08 MB peak
+[2016.04.27-14.06.23:178][  0]LogMemory: Process Virtual Memory: 316.73 MB used, 316.73 MB peak
+[2016.04.27-14.06.23:178][  0]LogMemory: Physical Memory: 5704.36 MB used, 12278.99 MB total
+[2016.04.27-14.06.23:178][  0]LogMemory: Virtual Memory: 621.01 MB used, 8388608.00 MB total
+[2016.04.27-14.06.23:218][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.04.27-14.06.23:684][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.27-14.06.23:709][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 670' (Feature Level 11_0)
+[2016.04.27-14.06.23:709][  0]LogD3D11RHI:       1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2016.04.27-14.06.23:709][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.27-14.06.23:715][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.27-14.06.23:715][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 670
+[2016.04.27-14.06.23:715][  0]LogD3D11RHI:   Driver Version: 10.18.13.6472 (internal 10.18.13.6472)
+[2016.04.27-14.06.23:715][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2016.04.27-14.06.23:715][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.27-14.06.23:727][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.27-14.06.23:744][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Intermediate/Shaders/WorkingDirectory/1816/).
+[2016.04.27-14.06.23:744][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MULLEN~1/AppData/Local/Temp/UnrealShaderWorkingDir/11A51FBE4BAE9F7D055DAA8518504BED/'.
+[2016.04.27-14.06.23:744][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.27-14.06.25:061][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.27-14.06.25:066][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.27-14.06.25:070][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.27-14.06.25:075][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.27-14.06.25:079][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.27-14.06.25:083][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.27-14.06.25:086][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.27-14.06.25:090][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.27-14.06.25:093][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.27-14.06.25:097][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.27-14.06.25:100][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.27-14.06.25:107][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.27-14.06.25:107][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.27-14.06.25:108][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.27-14.06.25:125][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.27-14.06.25:128][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.27-14.06.25:131][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.27-14.06.25:135][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.27-14.06.25:139][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.27-14.06.25:139][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.27-14.06.25:218][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.27-14.06.25:296][  0]LogDerivedDataCache: Loaded boot cache 0.08s 58MB C:/Users/Mullen IX/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.27-14.06.25:296][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mullen IX/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.27-14.06.25:296][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/University/Year 2/Experimental Games/Macbeth/Macbeth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.27-14.06.25:296][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.27-14.06.25:296][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/University/Year 2/Experimental Games/Macbeth/Macbeth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.27-14.06.25:296][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.27-14.06.25:318][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.27-14.06.25:330][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mullen IX/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.27-14.06.25:557][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.27-14.06.25:557][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.04.27-14.06.25:589][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.27-14.06.25:758][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.27-14.06.25:758][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.27-14.06.25:758][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.04.27-14.06.26:028][  0]LogUObjectArray: 27678 objects as part of root set at end of initial load.
+[2016.04.27-14.06.26:028][  0]LogUObjectAllocator: 5591384 out of 0 bytes used by permanent object pool.
+[2016.04.27-14.06.26:028][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.27-14.06.26:035][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.27-14.06.26:125][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.27-14.06.26:125][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.27-14.06.26:247][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.27-14.06.26:247][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.27-14.06.26:247][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.27-14.06.26:247][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.27-14.06.26:247][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.27-14.06.26:247][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.27-14.06.26:919][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.04.27-14.06.26:927][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.27-14.06.27:027][  0]LogAssetRegistry: FAssetRegistry took 0.0205 seconds to start up
+[2016.04.27-14.06.27:703][  0]SourceControl: Info Source control is disabled
+[2016.04.27-14.06.27:704][  0]SourceControl: Info Source control is disabled
+[2016.04.27-14.06.27:712][  0]SourceControl: Info Source control is disabled
+[2016.04.27-14.06.27:719][  0]SourceControl: Info Source control is disabled
+[2016.04.27-14.06.27:926][  0]LogEngine: Initializing Engine...
+[2016.04.27-14.06.27:927][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.27-14.06.27:927][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.27-14.06.28:114][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.27-14.06.28:132][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-14.06.28:146][  0]LogInit: FAudioDevice initialized.
+[2016.04.27-14.06.28:180][  0]LogDerivedDataCache: Saved boot cache 0.03s 58MB C:/Users/Mullen IX/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.27-14.06.28:191][  0]LogInit: Texture streaming: Enabled
+[2016.04.27-14.06.28:213][  0]LogInit: Transaction tracking system initialized
+[2016.04.27-14.06.28:235][  0]BlueprintLog: New page: Editor Load
+[2016.04.27-14.06.28:314][  0]LocalizationService: Info Localization service is disabled
+[2016.04.27-14.06.28:378][  0]LogConsoleResponse:Display: 
+[2016.04.27-14.06.28:506][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.04.27-14.06.28:506][  0]LogCook:Display: Mobile HDR setting 1
+[2016.04.27-14.06.28:506][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.27-14.06.28:562][  0]LogFileCache: Scanning file cache for directory 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/' took 0.02s
+[2016.04.27-14.06.28:563][  0]SourceControl: Info Source control is disabled
+[2016.04.27-14.06.28:563][  0]Cmd: MAP LOAD FILE="F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.27-14.06.28:564][  0]LightingResults: New page: Lighting Build
+[2016.04.27-14.06.28:567][  0]MapCheck: New page: Map Check
+[2016.04.27-14.06.28:567][  0]LightingResults: New page: Lighting Build
+[2016.04.27-14.06.32:041][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.27-14.06.32:238][  0]LogMaterial:Warning: Material /Game/Assets/Flowers/Grass.Grass needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.04.27-14.06.32:240][  0]LogMaterial: Missing cached shader map for material Grass, compiling. 
+[2016.04.27-14.06.32:286][  0]MapCheck:Warning: Warning Grass Material /Game/Assets/Flowers/Grass.Grass was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.04.27-14.06.32:286][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.06.32:288][  0]LogMaterial:Warning: Material /Game/Assets/Pine_Trees/pine_tree.pine_tree needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2016.04.27-14.06.32:291][  0]LogMaterial: Missing cached shader map for material pine_tree, compiling. 
+[2016.04.27-14.06.32:317][  0]MapCheck:Warning: Warning pine_tree Material /Game/Assets/Pine_Trees/pine_tree.pine_tree was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2016.04.27-14.06.32:317][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.06.32:334][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.27-14.06.32:335][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.27-14.06.32:431][  0]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 95.742ms to complete.
+[2016.04.27-14.06.32:442][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.879
+[2016.04.27-14.06.32:593][  0]LogCollectionManager: Loaded 0 collections in 0.002667 seconds
+[2016.04.27-14.06.32:623][  0]LogFileCache: Scanning file cache for directory 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Saved/Collections/' took 0.01s
+[2016.04.27-14.06.32:623][  0]LogFileCache: Scanning file cache for directory 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Developers/MullenIX/Collections/' took 0.01s
+[2016.04.27-14.06.32:623][  0]LogFileCache: Scanning file cache for directory 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Collections/' took 0.00s
+[2016.04.27-14.06.32:623][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.04.27-14.06.32:641][  0]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 1994 classes and 349 folders.
+[2016.04.27-14.06.32:647][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.04.27-14.06.32:648][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.04.27-14.06.32:648][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 12 classes and 0 folders.
+[2016.04.27-14.06.32:658][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.04.27-14.06.32:667][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.04.27-14.06.32:736][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.04.27-14.06.32:744][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.04.27-14.06.32:793][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.27-14.06.32:799][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.27-14.06.32:827][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.04.27-14.06.32:827][  0]LogLoad: Full Startup: 10.85 seconds (BP compile: 0.12 seconds)
+[2016.04.27-14.06.32:827][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.04.27-14.06.32:836][  0]LogOcInput: OculusInput pre-init called
+[2016.04.27-14.06.32:899][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.27-14.06.33:172][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.04.27-14.06.33:252][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.27-14.06.33:387][  2]LogAssetRegistry: Asset discovery search completed in 6.3813 seconds
+[2016.04.27-14.06.33:387][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.27-14.06.33:387][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2016.04.27-14.07.24:339][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.04.27-14.07.24:341][746]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.04.27-14.07.32:184][667]LogMaterial: Missing cached shader map for material TerrainMaterial, compiling. 
+[2016.04.27-14.07.32:296][667]LogMaterial: Missing cached shader map for material TerrainMaterial, compiling. 
+[2016.04.27-14.07.32:305][667]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.07.32:332][667]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.27-14.07.32:336][667]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.04.27-14.07.32:340][667]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.04.27-14.07.32:344][667]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.04.27-14.07.34:473][748]MaterialEditorStats: Info Base pass shader with static lighting: 80 instructions
+[2016.04.27-14.07.34:474][748]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2016.04.27-14.07.34:474][748]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.07.34:474][748]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.27-14.09.27:911][868]LogMaterial: Missing cached shader map for material M_Dirt, compiling. 
+[2016.04.27-14.09.38:379][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/T_Dirt_N" FILE="F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Textures/T_Dirt_N.uasset" SILENT=true
+[2016.04.27-14.09.38:542][587]LogSavePackage: Save=159.04ms
+[2016.04.27-14.09.38:542][587]LogSavePackage: Moving 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Saved/T_Dirt_NB1B7B5F34464968D428749984EF239B0.tmp' to 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Textures/T_Dirt_N.uasset'
+[2016.04.27-14.09.38:550][587]LogSavePackage: Total save time: 167.79ms
+[2016.04.27-14.09.38:550][587]LogSavePackage:Display: Finished SavePackage F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Textures/T_Dirt_N.uasset
+[2016.04.27-14.09.38:569][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/T_Dirt_D" FILE="F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Textures/T_Dirt_D.uasset" SILENT=true
+[2016.04.27-14.09.38:746][587]LogSavePackage: Save=173.14ms
+[2016.04.27-14.09.38:746][587]LogSavePackage: Moving 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Saved/T_Dirt_D476E86F1449281023F464A849CE67515.tmp' to 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Textures/T_Dirt_D.uasset'
+[2016.04.27-14.09.38:751][587]LogSavePackage: Total save time: 178.53ms
+[2016.04.27-14.09.38:751][587]LogSavePackage:Display: Finished SavePackage F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Textures/T_Dirt_D.uasset
+[2016.04.27-14.09.38:986][587]LogSavePackage: Save=25.03ms
+[2016.04.27-14.09.38:986][587]LogSavePackage: Moving 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Saved/M_Dirt578EB32243DF81F0BF02CEAB915EEBE5.tmp' to 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Terrain/Materials/M_Dirt.uasset'
+[2016.04.27-14.09.38:990][587]LogSavePackage: Total save time: 40.29ms
+[2016.04.27-14.09.38:990][587]LogSavePackage:Display: Finished SavePackage F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Terrain/Materials/M_Dirt.uasset
+[2016.04.27-14.09.39:031][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/LandscapeMaterial" FILE="F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/LandscapeMaterial.uasset" SILENT=true
+[2016.04.27-14.09.39:109][587]LogSavePackage: Save=62.39ms
+[2016.04.27-14.09.39:109][587]LogSavePackage: Moving 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Saved/LandscapeMaterial12C3CDDF47DC6B9C5D1D9F84752B9A86.tmp' to 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/LandscapeMaterial.uasset'
+[2016.04.27-14.09.39:112][587]LogSavePackage: Total save time: 77.45ms
+[2016.04.27-14.09.39:112][587]LogSavePackage:Display: Finished SavePackage F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/LandscapeMaterial.uasset
+[2016.04.27-14.09.39:132][587]LogSavePackage: Save=10.85ms
+[2016.04.27-14.09.39:132][587]LogSavePackage: Moving 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Saved/M_Dirt0459504548EEBEC531642D9FEDB58ABF.tmp' to 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Terrain/Materials/M_Dirt.uasset'
+[2016.04.27-14.09.39:135][587]LogSavePackage: Total save time: 15.00ms
+[2016.04.27-14.09.39:135][587]LogSavePackage:Display: Finished SavePackage F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Terrain/Materials/M_Dirt.uasset
+[2016.04.27-14.09.39:140][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/LandscapeMaterial" FILE="F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/LandscapeMaterial.uasset" SILENT=true
+[2016.04.27-14.09.39:160][587]LogSavePackage: Save=15.61ms
+[2016.04.27-14.09.39:160][587]LogSavePackage: Moving 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Saved/LandscapeMaterial3B0E5A9748DCD8D207DFEC882D1AB403.tmp' to 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/LandscapeMaterial.uasset'
+[2016.04.27-14.09.39:162][587]LogSavePackage: Total save time: 19.19ms
+[2016.04.27-14.09.39:162][587]LogSavePackage:Display: Finished SavePackage F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/LandscapeMaterial.uasset
+[2016.04.27-14.09.43:612][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Dirt" FILE="F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/M_Dirt.uasset" SILENT=true
+[2016.04.27-14.09.43:643][940]LogSavePackage: Save=28.48ms
+[2016.04.27-14.09.43:643][940]LogSavePackage: Moving 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Saved/M_DirtD5C9630040C513D080D7E79F7D08C8F3.tmp' to 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/M_Dirt.uasset'
+[2016.04.27-14.09.43:649][940]LogSavePackage: Total save time: 34.78ms
+[2016.04.27-14.09.43:649][940]LogSavePackage:Display: Finished SavePackage F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/M_Dirt.uasset
+[2016.04.27-14.09.53:245][636]LogMaterial: Missing cached shader map for material M_Dirt, compiling. 
+[2016.04.27-14.09.53:342][636]LogMaterial: Missing cached shader map for material M_Dirt, compiling. 
+[2016.04.27-14.09.53:349][636]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.09.53:377][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.04.27-14.09.53:381][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.04.27-14.09.54:815][713]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2016.04.27-14.09.54:815][713]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.09.54:815][713]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.27-14.10.48:515][719]LogMaterial: Missing cached shader map for material M_Dirt, compiling. 
+[2016.04.27-14.10.48:523][719]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.10.49:943][810]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2016.04.27-14.10.49:943][810]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.10.49:943][810]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.27-14.10.59:847][593]LogMaterial: Missing cached shader map for material M_Dirt, compiling. 
+[2016.04.27-14.10.59:855][593]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.11.00:996][658]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2016.04.27-14.11.00:996][658]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.04.27-14.11.00:996][658]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.27-14.11.12:517][506]LogMaterial: Missing cached shader map for material M_Dirt, compiling. 
+[2016.04.27-14.11.12:525][506]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.11.13:646][568]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.04.27-14.11.13:646][568]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.11.13:646][568]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.27-14.11.23:322][446]LogMaterial: Missing cached shader map for material M_Dirt, compiling. 
+[2016.04.27-14.11.23:330][446]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.11.24:511][518]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.04.27-14.11.24:511][518]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.11.24:511][518]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.27-14.11.49:617][235]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.27-14.11.49:714][235]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.27-14.11.49:723][235]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.11.49:748][235]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.27-14.11.49:752][235]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.04.27-14.11.49:756][235]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.04.27-14.11.49:760][235]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.04.27-14.11.51:494][326]MaterialEditorStats: Info Base pass shader with static lighting: 80 instructions
+[2016.04.27-14.11.51:494][326]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2016.04.27-14.11.51:494][326]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.11.51:494][326]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.27-14.12.10:876][  2]LogTexture:Display: Building textures: T_1x1_Grid (AutoDXT)
+[2016.04.27-14.12.10:968][  2]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.27-14.12.10:991][  2]LogTexture:Display: Building textures: DebugNumberPeriod (AutoDXT)
+[2016.04.27-14.12.10:994][  2]LogTexture:Display: Building textures: DebugNumberStrip (AutoDXT)
+[2016.04.27-14.12.11:025][  2]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2016.04.27-14.12.11:065][  2]LogTexture:Display: Building textures: CASC_ModuleEnab_2 (DXT1)
+[2016.04.27-14.12.11:084][  2]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Intensity.
+[2016.04.27-14.12.11:085][  2]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Tint.
+[2016.04.27-14.12.25:206][316]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.27-14.12.25:215][316]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.12.26:896][411]MaterialEditorStats: Info Base pass shader with static lighting: 80 instructions
+[2016.04.27-14.12.26:896][411]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2016.04.27-14.12.26:896][411]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.12.26:896][411]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.27-14.12.33:070][ 20]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.27-14.12.33:079][ 20]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.12.34:484][ 99]MaterialEditorStats: Info Base pass shader with static lighting: 80 instructions
+[2016.04.27-14.12.34:484][ 99]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2016.04.27-14.12.34:484][ 99]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.12.34:484][ 99]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.27-14.12.35:292][180]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.27-14.12.35:301][180]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.12.36:677][264]MaterialEditorStats: Info Base pass shader with static lighting: 74 instructions
+[2016.04.27-14.12.36:677][264]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.04.27-14.12.36:677][264]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.12.36:677][264]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.27-14.12.53:774][604]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.27-14.12.53:783][604]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.12.53:784][604]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.27-14.12.53:811][604]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.27-14.12.53:817][604]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.04.27-14.12.53:824][604]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.04.27-14.12.53:830][604]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.04.27-14.12.53:837][604]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.27-14.12.55:113][660]MaterialEditorStats: Info Base pass shader with static lighting: 74 instructions
+[2016.04.27-14.12.55:113][660]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2016.04.27-14.12.55:113][660]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.12.55:113][660]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.27-14.12.59:637][992]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.27-14.12.59:648][992]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.12.59:672][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.27-14.13.01:024][ 58]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.04.27-14.13.01:025][ 58]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.04.27-14.13.01:025][ 58]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.13.01:025][ 58]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.04.27-14.13.12:228][911]LogMaterialEditor: Applying material TerrainMaterial
+[2016.04.27-14.13.12:787][911]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.27-14.13.12:811][911]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.13.12:872][911]LogMaterial: Missing cached shader map for material TerrainMaterial, compiling. 
+[2016.04.27-14.13.12:987][911]LogMaterial: Missing cached shader map for material TerrainMaterial, compiling. 
+[2016.04.27-14.13.13:059][911]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 290 instances, 0 with static permutations.
+[2016.04.27-14.13.24:968][504]MaterialEditorStats: Info Base pass shader with static lighting: 109 instructions
+[2016.04.27-14.13.24:968][504]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 79 instructions
+[2016.04.27-14.13.24:968][504]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.13.24:968][504]MaterialEditorStats: Info Texture samplers: 9/16
+[2016.04.27-14.13.59:503][229]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.27-14.13.59:512][229]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.14.01:209][322]MaterialEditorStats: Info Base pass shader with static lighting: 81 instructions
+[2016.04.27-14.14.01:209][322]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 52 instructions
+[2016.04.27-14.14.01:209][322]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.14.01:209][322]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.27-14.14.03:160][502]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.27-14.14.03:169][502]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.14.03:194][502]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.27-14.14.04:544][573]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.04.27-14.14.04:544][573]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.04.27-14.14.04:544][573]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.14.04:544][573]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.04.27-14.14.38:523][382]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.27-14.14.38:532][382]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.14.40:239][483]MaterialEditorStats: Info Base pass shader with static lighting: 80 instructions
+[2016.04.27-14.14.40:239][483]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2016.04.27-14.14.40:239][483]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.14.40:239][483]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.27-14.14.53:600][737]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.27-14.14.53:703][737]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.27-14.14.53:712][737]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.14.53:749][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.04.27-14.14.53:755][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.04.27-14.14.53:761][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.04.27-14.14.53:768][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.04.27-14.14.53:774][737]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.04.27-14.14.55:177][805]MaterialEditorStats: Info Base pass shader with static lighting: 82 instructions
+[2016.04.27-14.14.55:177][805]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 53 instructions
+[2016.04.27-14.14.55:177][805]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.14.55:177][805]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.04.27-14.15.00:882][286]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.27-14.15.00:891][286]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.15.02:282][370]MaterialEditorStats: Info Base pass shader with static lighting: 80 instructions
+[2016.04.27-14.15.02:282][370]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2016.04.27-14.15.02:282][370]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.15.02:282][370]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.27-14.15.02:894][423]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.27-14.15.02:903][423]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.15.04:261][497]MaterialEditorStats: Info Base pass shader with static lighting: 80 instructions
+[2016.04.27-14.15.04:261][497]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2016.04.27-14.15.04:261][497]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.15.04:261][497]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.27-14.15.04:300][499]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.27-14.15.04:309][499]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (4 / 4)
+[2016.04.27-14.15.04:309][499]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.15.05:678][574]MaterialEditorStats: Info Base pass shader with static lighting: 80 instructions
+[2016.04.27-14.15.05:678][574]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 51 instructions
+[2016.04.27-14.15.05:678][574]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.15.05:678][574]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.27-14.15.09:142][849]LogMaterialEditor: Applying material TerrainMaterial
+[2016.04.27-14.15.09:706][849]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.27-14.15.09:730][849]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.15.09:778][849]LogMaterial: Missing cached shader map for material TerrainMaterial, compiling. 
+[2016.04.27-14.15.09:885][849]LogMaterial: Missing cached shader map for material TerrainMaterial, compiling. 
+[2016.04.27-14.15.09:972][849]LogMaterial: 0.02 seconds spent updating 1 materials, 1 interfaces, 290 instances, 0 with static permutations.
+[2016.04.27-14.15.11:825][948]LogMaterialEditor: Saving and Compiling material TerrainMaterial
+[2016.04.27-14.15.20:456][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TerrainMaterial" FILE="F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/TerrainMaterial.uasset" SILENT=true
+[2016.04.27-14.15.20:504][948]LogSavePackage: Save=31.75ms
+[2016.04.27-14.15.20:504][948]LogSavePackage: Moving 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Saved/TerrainMaterialB25BE0C64F4B3E0A515804B98DB8968D.tmp' to 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/TerrainMaterial.uasset'
+[2016.04.27-14.15.20:509][948]LogSavePackage: Total save time: 49.13ms
+[2016.04.27-14.15.20:509][948]LogSavePackage:Display: Finished SavePackage F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/TerrainMaterial.uasset
+[2016.04.27-14.15.20:512][948]MaterialEditorStats: Info Base pass shader with static lighting: 107 instructions
+[2016.04.27-14.15.20:512][948]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 77 instructions
+[2016.04.27-14.15.20:512][948]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.15.20:512][948]MaterialEditorStats: Info Texture samplers: 8/16
+[2016.04.27-14.15.26:410][468]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2016.04.27-14.15.26:507][468]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2016.04.27-14.15.26:516][468]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.15.26:542][468]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.04.27-14.15.26:548][468]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2016.04.27-14.15.27:689][523]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2016.04.27-14.15.27:689][523]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.15.27:689][523]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.27-14.15.40:648][605]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2016.04.27-14.15.40:657][605]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.15.41:777][662]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.04.27-14.15.41:777][662]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.15.41:777][662]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.27-14.15.44:968][952]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2016.04.27-14.15.44:976][952]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.15.46:106][ 14]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.04.27-14.15.46:106][ 14]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.15.46:106][ 14]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.27-14.15.49:517][341]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2016.04.27-14.15.49:525][341]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.15.49:548][341]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2016.04.27-14.15.50:662][403]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.04.27-14.15.50:662][403]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.15.50:663][403]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.27-14.15.52:526][574]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2016.04.27-14.15.52:534][574]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.15.53:730][640]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.04.27-14.15.53:730][640]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.15.53:730][640]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.27-14.16.06:028][840]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2016.04.27-14.16.06:036][840]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.16.07:183][903]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 38 instructions
+[2016.04.27-14.16.07:183][903]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.27-14.16.07:183][903]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.27-14.16.12:132][391]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2016.04.27-14.16.12:140][391]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.16.13:832][416]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2016.04.27-14.16.13:832][416]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.04.27-14.16.13:832][416]MaterialEditorStats: Info Texture samplers: 2/16
+[2016.04.27-14.16.18:505][431]LogMaterialEditor: Applying material M_Dirt
+[2016.04.27-14.16.19:072][431]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2016.04.27-14.16.19:093][431]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.16.19:121][431]LogMaterial: Missing cached shader map for material M_Dirt, compiling. 
+[2016.04.27-14.16.19:158][431]LogMaterial: Missing cached shader map for material M_Dirt, compiling. 
+[2016.04.27-14.16.19:188][431]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.16.23:041][670]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2016.04.27-14.16.23:041][670]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.04.27-14.16.23:041][670]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.04.27-14.16.51:373][437]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.27-14.17.13:757][746]LogMaterialEditor: Applying material M_Dirt
+[2016.04.27-14.17.14:325][746]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling. 
+[2016.04.27-14.17.14:346][746]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.17.14:382][746]LogMaterial: Missing cached shader map for material M_Dirt, compiling. 
+[2016.04.27-14.17.14:418][746]LogMaterial: Missing cached shader map for material M_Dirt, compiling. 
+[2016.04.27-14.17.14:439][746]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.27-14.17.15:537][802]LogMaterialEditor: Saving and Compiling material M_Dirt
+[2016.04.27-14.17.17:951][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_Dirt" FILE="F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/M_Dirt.uasset" SILENT=true
+[2016.04.27-14.17.18:012][802]LogSavePackage: Save=30.29ms
+[2016.04.27-14.17.18:012][802]LogSavePackage: Moving 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Saved/M_Dirt1C86080B43984ED9781B398A44D80A9C.tmp' to 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/M_Dirt.uasset'
+[2016.04.27-14.17.18:019][802]LogSavePackage: Total save time: 64.44ms
+[2016.04.27-14.17.18:019][802]LogSavePackage:Display: Finished SavePackage F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/Materials/M_Dirt.uasset
+[2016.04.27-14.17.18:022][802]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2016.04.27-14.17.18:022][802]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2016.04.27-14.17.18:022][802]MaterialEditorStats: Info Texture samplers: 5/16
+[2016.04.27-14.23.58:049][186]LogRenderer: Reallocating scene render targets to support 1248x576 (Frame:56067).
+[2016.04.27-14.23.58:097][187]LogRenderer: Reallocating scene render targets to support 1252x576 (Frame:56069).
+[2016.04.27-14.24.19:594][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.27-14.24.19:594][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-14.24.19:606][ 87]PIE: New page: PIE session: ThirdPersonExampleMap (27 Apr 2016 15:24:19)
+[2016.04.27-14.24.19:607][ 87]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.04.27-14.24.19:812][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.205182s)
+[2016.04.27-14.24.19:813][ 87]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.04.27-14.24.19:813][ 87]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2016.04.27-14.24.19:813][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.206451s)
+[2016.04.27-14.24.19:838][ 87]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.27-14.24.19:851][ 87]LogInit: FAudioDevice initialized.
+[2016.04.27-14.24.19:911][ 87]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.27-14.24.19:995][ 87]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.04.27-15.24.19
+[2016.04.27-14.24.19:999][ 87]LogWorld: Bringing up level for play took: 0.061281
+[2016.04.27-14.24.20:004][ 87]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 9 classes and 0 folders.
+[2016.04.27-14.24.20:004][ 87]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.197
+[2016.04.27-14.24.20:005][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.27-14.26.02:959][ 45]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.27-14.26.03:025][ 45]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.04.27-14.26.42:805][185]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2016.04.27-14.26.43:145][220]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2016.04.27-14.30.49:326][140]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2016.04.27-14.30.49:400][141]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.27-14.30.49:484][142]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.04.27-14.31.17:736][819]LogStaticMesh: Building static mesh wooden_bridge_block_Model__1_...
+[2016.04.27-14.31.17:788][819]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/wooden_bridge_block_Model__1_.wooden_bridge_block_Model__1_
+[2016.04.27-14.31.18:038][827]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2016.04.27-14.31.18:057][827]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2016.04.27-14.31.18:073][827]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2016.04.27-14.31.18:092][827]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2016.04.27-14.31.18:109][827]LogActorFactory: Actor Factory created wooden_bridge_block_Model__1_
+[2016.04.27-14.31.19:043][900]LogActorFactory: Actor Factory created wooden_bridge_block_Model__1_
+[2016.04.27-14.31.28:778][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wooden_bridge_block_Model__1_)
+[2016.04.27-14.31.29:452][ 20]Cmd: DELETE
+[2016.04.27-14.31.29:452][ 20]Cmd: ACTOR DELETE
+[2016.04.27-14.31.29:454][ 20]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.27-14.31.29:454][ 20]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.27-14.31.29:466][ 20]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2016.04.27-14.31.29:839][ 64]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2016.04.27-14.31.29:850][ 64]LogStaticMesh: Building static mesh Stone_bridge_block_model...
+[2016.04.27-14.31.29:866][ 64]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Stone_bridge_block_model.Stone_bridge_block_model
+[2016.04.27-14.31.29:933][ 67]LogActorFactory: Actor Factory created Stone_bridge_block_model
+[2016.04.27-14.31.30:745][141]LogActorFactory: Actor Factory created Stone_bridge_block_model
+[2016.04.27-14.31.32:219][264]Cmd: DELETE
+[2016.04.27-14.31.32:219][264]Cmd: ACTOR DELETE
+[2016.04.27-14.31.32:221][264]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.27-14.31.32:234][264]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2016.04.27-14.31.49:797][996]LogStaticMesh: Building static mesh Castle_block_model...
+[2016.04.27-14.31.49:853][996]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/Castle_block_model.Castle_block_model
+[2016.04.27-14.31.49:952][  4]LogActorFactory: Actor Factory created Castle_block_model
+[2016.04.27-14.31.52:563][300]LogActorFactory: Actor Factory created Castle_block_model
+[2016.04.27-14.32.03:404][435]Cmd: DELETE
+[2016.04.27-14.32.03:404][435]Cmd: ACTOR DELETE
+[2016.04.27-14.32.03:405][435]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.27-14.32.03:417][435]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2016.04.27-14.35.15:198][689]Cmd: TRANSACTION UNDO
+[2016.04.27-14.35.15:198][689]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2016.04.27-14.35.15:240][689]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.27-14.35.15:244][689]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2016.04.27-14.35.15:265][689]PIE:Warning: Warning AttachTo: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2016.04.27-14.35.15:596][714]Cmd: TRANSACTION UNDO
+[2016.04.27-14.35.15:596][714]LogEditorTransaction: Undo Landscape Editing: Flatten
+[2016.04.27-14.35.15:654][714]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.27-14.35.15:658][714]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2016.04.27-14.35.15:680][714]PIE:Warning: Warning AttachTo: '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LandscapeGizmoActiveActor_0.GizmoRendererComponent0' is not static , cannot attach '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.LandscapeGizmoActiveActor_0.RootComponent0' which is static to it. Aborting.
+[2016.04.27-14.36.25:074][ 17]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2016.04.27-14.36.25:087][ 17]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2016.04.27-14.36.25:099][ 17]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2016.04.27-14.36.25:114][ 17]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2016.04.27-14.36.27:992][ 17]LogSavePackage: Save=2989.49ms
+[2016.04.27-14.36.27:993][ 17]LogSavePackage: Moving 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Saved/ThirdPersonExampleMapA0FDCE0F46B6019796B1EB9A4B63E45A.tmp' to 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.04.27-14.36.28:005][ 17]LogSavePackage: Total save time: 4811.34ms
+[2016.04.27-14.36.28:005][ 17]LogSavePackage:Display: Finished SavePackage F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.04.27-14.43.07:420][959]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2016.04.27-14.44.13:724][347]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2016.04.27-14.44.13:738][347]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2016.04.27-14.44.13:751][347]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2016.04.27-14.44.16:589][347]LogSavePackage: Save=2936.41ms
+[2016.04.27-14.44.16:590][347]LogSavePackage: Moving 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Saved/ThirdPersonExampleMap620FC9904ACC2DD8FB5057A1AC80D260.tmp' to 'F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.04.27-14.44.16:602][347]LogSavePackage: Total save time: 4567.97ms
+[2016.04.27-14.44.16:602][347]LogSavePackage:Display: Finished SavePackage F:/University/Year 2/Experimental Games/Macbeth/Macbeth/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.04.27-14.48.13:300][835]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2016.04.27-14.48.17:960][835]LogCrashTracker: 
+
+
+[2016.04.27-14.48.18:028][835]LogCrashTracker: 
+
+
+[2016.04.27-14.48.18:028][835]LogWindows:Error: === Critical error: ===
+Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:D:\BuildFarm\buildmachine_++UE4+Release-4.11\Engine\Source\Runtime\Core\Public\Containers\Array.h] [Line: 785] 
+Array index out of bounds: 1 from an array of size 1
+
+
+
+
+[2016.04.27-14.48.18:085][835]LogExit: Executing StaticShutdownAfterError
+[2016.04.27-14.48.18:103][835]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-14.48.18:103][835]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.04.27-14.48.18:103][835]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.04.27-14.48.18:103][835]Log file closed, 04/27/16 15:48:18
